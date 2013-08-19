@@ -1,0 +1,20 @@
+program exer15;
+uses crt;
+var
+nome: string;
+begin
+clrscr;
+write('digite um nome:');  
+readln(nome);
+
+
+writeln('Todo Nome: ', nome);
+writeln('Primeiro Caracter: ', nome[1]);
+writeln('Ultimo Caracter: ');
+writeln('Do Primeiro ate o Terceiro: ');
+writeln('Quarto Caracter: ', nome[4]);
+writeln('Todos Menos o Primeiro: ');
+writeln('Os dois Ultimos: ');
+
+readln;
+end.
